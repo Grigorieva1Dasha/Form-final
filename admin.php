@@ -10,7 +10,7 @@
 		<h1>Просмотр заявок</h1>
 	</center>
 	<?php
-	include('classList.php');
+	include('App/classList.php');
 	$list = new Participants_list();
 	?>
 	<br>
