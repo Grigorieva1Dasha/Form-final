@@ -6,7 +6,7 @@ session_start();
 <head>
 	<meta charset="utf-8">
     <title>Form</title>
-    <link href="view.css" rel="stylesheet">
+    <link href="css/view.css" rel="stylesheet">
 </head>
 <body>
 	<center>
