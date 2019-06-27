@@ -75,7 +75,7 @@ class Registration extends Data
       			echo 'Введите номер телфеона в формате +79991234566';
         		return false;
       		}
-      		/if ($this->name($_SESSION['name'])==0){
+      		if ($this->name($_SESSION['name'])==0){
       			echo 'Введите имя корректно (с заглавной буквы)';
         		return false;
       		}
