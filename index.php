@@ -13,7 +13,7 @@ session_start();
 		<h1>Форма регистрации на конферецию</h1>
 	</center>
 	<?php
-	include('classRegistration.php');
+	include('App/classRegistration.php');
 	$r = new Registration();
 	?>
 	<center>
