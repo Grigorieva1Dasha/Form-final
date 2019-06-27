@@ -1,0 +1,12 @@
+CREATE TABLE `participants` (
+  `id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `date` DATETIME NOT NULL,
+  `ip` VARCHAR(255) NOT NULL,
+  `name` VARCHAR(255) NOT NULL,
+  `lastname` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `telephone` VARCHAR(255) NOT NULL,
+  `topic` VARCHAR(255) NOT NULL,
+  `pay` VARCHAR(255) NOT NULL,
+  PRIMARY KEY(`id`)
+);
